@@ -10,7 +10,7 @@ const NavPage = () => {
 		<>
 			<section>
 				<Routes>
-					<Route path='/' element={<Home />} />
+					<Route path='/home' element={<Home />} />
 					<Route path='/market' element={<Marketplace />} />
 					<Route path='/auctions' element={<Auctions />} />
 					<Route path='/drop' element={<Drop />} />
