@@ -9,6 +9,7 @@ const Products = () => {
 				{ProductsData.map((item, key) => {
 					return (
 						<div key={key} className='border-t-4 mb-8'>
+							{item.reverse}
 							<div className='flex gap-8 mt-8'>
 								<img src={item.image} alt='boolean images' />
 								<div className='font-heading'>

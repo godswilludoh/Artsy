@@ -16,6 +16,7 @@ export const ProductsData = [
 		avatar: '/images/group.png',
 		creators: '54 major creators',
 		arrow: '/images/arrow.png',
+		reverse: 'reverse',
 	},
 	{
 		id: 2,
