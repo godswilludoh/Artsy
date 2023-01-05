@@ -1,5 +1,6 @@
 import React from 'react';
 import HomeHeader from '../components/home/components/HomeHeader';
+import Products from '../components/home/components/Products';
 import { SliderImage } from '../components/home/components/SliderImage';
 
 const Home = () => {
@@ -8,6 +9,7 @@ const Home = () => {
 			<HomeHeader />
 			<section>
 				<SliderImage />
+                <Products/>
 			</section>
 		</>
 	);

@@ -16,4 +16,3 @@ export const ImageData = [
 		image: '/images/carousel4.png',
 	},
 ];
-
