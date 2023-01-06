@@ -5,6 +5,8 @@ module.exports = {
 		fontFamily: {
 			display: ['Ruslan Display', 'cursive'],
 			heading: ['STIX Two Text', 'serif'],
+			exhibition: ['Bellefair', 'serif'],
+			exhibition2: ['Poppins', 'sans-serif'],
 		},
 		extend: {
 			colors: {

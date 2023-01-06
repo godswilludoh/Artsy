@@ -7,6 +7,7 @@ export const ProductsData = [
 		avatar: '/images/group.png',
 		creators: '64 major creators',
 		arrow: '/images/arrow.png',
+		reverse: false,
 	},
 	{
 		id: 1,
@@ -16,7 +17,7 @@ export const ProductsData = [
 		avatar: '/images/group.png',
 		creators: '54 major creators',
 		arrow: '/images/arrow.png',
-		reverse: 'reverse',
+		reverse: true,
 	},
 	{
 		id: 2,
@@ -26,5 +27,6 @@ export const ProductsData = [
 		avatar: '/images/group.png',
 		creators: '60 major creators',
 		arrow: '/images/arrow.png',
+		reverse: false,
 	},
 ];
