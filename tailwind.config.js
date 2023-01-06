@@ -7,6 +7,7 @@ module.exports = {
 			heading: ['STIX Two Text', 'serif'],
 			exhibition: ['Bellefair', 'serif'],
 			exhibition2: ['Poppins', 'sans-serif'],
+			subscribe: ['Baskervville', 'serif'],
 		},
 		extend: {
 			colors: {
