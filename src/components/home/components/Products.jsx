@@ -8,7 +8,7 @@ const Products = () => {
 			<div className=''>
 				{ProductsData.map((item, key) => {
 					return (
-						<div key={key} className='border-t-4 mb-8 '>
+						<div key={key} className='border-t-2 mb-8 '>
 							<div
 								className={`flex gap-8 mt-8 ${
 									item.reverse ? 'flex-row-reverse' : 'flex-row'
