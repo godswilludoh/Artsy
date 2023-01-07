@@ -8,6 +8,7 @@ module.exports = {
 			exhibition: ['Bellefair', 'serif'],
 			exhibition2: ['Poppins', 'sans-serif'],
 			subscribe: ['Baskervville', 'serif'],
+			footer: ['Rubik', 'sans-serif'],
 		},
 		extend: {
 			colors: {

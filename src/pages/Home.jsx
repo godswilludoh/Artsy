@@ -1,4 +1,5 @@
 import React from 'react';
+import Footer from '../components/footer/Footer';
 import Exhibition from '../components/home/components/Exhibition';
 import Explore from '../components/home/components/Explore';
 import HomeHeader from '../components/home/components/HomeHeader';
@@ -9,7 +10,7 @@ import TopCreators from '../components/home/components/TopCreators';
 
 const Home = () => {
 	return (
-		<>
+		<div className='my-8'>
 			<HomeHeader />
 			<section>
 				<SliderImage />
@@ -18,8 +19,9 @@ const Home = () => {
 				<Explore />
 				<TopCreators />
 				<Subscribe />
+				<Footer />
 			</section>
-		</>
+		</div>
 	);
 };
 
